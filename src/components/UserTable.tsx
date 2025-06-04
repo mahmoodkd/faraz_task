@@ -1,6 +1,6 @@
 "use client";
-import { useUsers } from "@/app/store/userStore";
-import { useUserUIStore } from "@/app/store/useUserUIStore";
+import { useUsers } from "@/store/userStore";
+import { useUserUIStore } from "@/store/useUserUIStore";
 import { Edit2 } from "lucide-react";
 import { useMemo, useState } from "react";
 

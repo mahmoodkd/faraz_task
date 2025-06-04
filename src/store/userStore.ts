@@ -1,5 +1,5 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { User } from "../types";
+import { User } from "../app/types";
 
 const API_URL = "https://jsonplaceholder.typicode.com/users";
 

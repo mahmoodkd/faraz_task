@@ -3,8 +3,8 @@
 import { useForm, type SubmitHandler } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import { useUpdateUser, useUsers } from "@/app/store/userStore";
-import { useUserUIStore } from "@/app/store/useUserUIStore";
+import { useUpdateUser, useUsers } from "@/store/userStore";
+import { useUserUIStore } from "@/store/useUserUIStore";
 
 export type FormData = {
   name: string;
